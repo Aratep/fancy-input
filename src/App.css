@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.fancyinput input {
+  padding: 8px;
+  margin: 2px ;
+  border: 1px solid #aaa ;
+  border-radius: 5px ;
+}
+
+
+.fancyinput .placeholder {
+    top: 110px;
+    left: 385pt;
+    color: gray;
+    font-size: 1pc;
+}
+
+.fancyinput .stamp {
+    top: 81px;
+    left: 505px;
+    color: blue;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.fancyinput .placeholder, .fancyinput .stamp {
+    position: absolute;
+    display: block;
+    pointer-events: none;
+    transition: .3s ease-in-out;
+}
+
+.app {
+    margin-top: 100px;
+    margin-left: 500px
+}
